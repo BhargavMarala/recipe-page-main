@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(30, 18%, 87%);
+    /* height: 2000px; */
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50%;
+    /* margin: 20%; */
+    background-color: hsl(0, 0%, 100%);
+    height: max-content;
+    width: 850px;
+    border-radius: 30px;
+    /* z-index: 5px; */
+    /* text-align: center; */
+
+}
+
+img {
+    box-sizing: initial;
+    padding: 40px;
+    height: 350px;
+    width: max-content;
+    border-radius: 80px;
+}
+
+.maincontent>h1 {
+    margin-left: 40px;
+    /* margin-top: -10px; */
+    font-family: Young Serif;
+    font-weight: 400;
+}
+
+.maincontent>p {
+    margin-left: 40px;
+    /* margin-top: -15px; */
+    margin-bottom: 20px;
+    font-family: Outfit;
+    font-size: larger;
+}
+
+.time {
+    margin-left: 40px;
+    padding: 10px 20px;
+    /* display: flex;
+    flex-direction: column; */
+    height: 170px;
+    width: 700px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    font-family: Outfit;
+}
+
+.time>h3 {
+    color: hsl(332, 51%, 32%);
+    font-weight: bolder;
+
+}
+
+.time>ul {
+    color: hsl(30, 10%, 34%);
+    font-size: 1.2rem;
+    line-height: 2;
+    /* margin-left: 10px; */
+    text-align: justify;
+    /* list-style-position: outside; */
+
+}
+
+.ingredients>h2 {
+    margin-left: 40px;
+    /* margin-bottom: -25px; */
+    font-family: Young Serif;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients>ul {
+    margin-left: 40px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.ingredients>ul {
+    margin-top: -20px;
+    line-height: 2;
+    list-style-type: square;
+    color: hsl(30, 10%, 34%);
+    font-family: Outfit;
+}
+
+.Instructions>h2 {
+    margin-left: 40px;
+    /* margin-bottom: -5px; */
+    font-family: Young Serif;
+    color: hsl(14, 45%, 36%);
+
+}
+
+.Instructions>ol {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+::marker {
+    color: hsl(14, 45%, 36%);
+
+}
+
+.Nutrition>h2 {
+    margin-left: 40px;
+
+    font-family: Young Serif;
+    color: hsl(14, 45%, 36%);
+}
+
+.Nutrition>span {
+    margin-left: 40px;
+    font-family: Outfit;
+    font-size: 1.2rem;
+    color: hsl(30, 10%, 34%);
+
+
+}
+
+table {
+
+    width: 90%;
+    font-family: Outfit;
+    margin-left: 40px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    align-self: center;
+    /* justify-content: center; */
+}
+
+td {
+    padding: 1rem;
+
+}
+
+td+td {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+
+    /* margin-left: 370px; */
+
+}
+
+tr {
+
+    border-bottom: 2px solid #E3DDD7;
+
+}
+
+tr:last-child {
+    border: none;
+}
+
+/* table, tr, td{
+
+    height: 50px;
+    width: 750px;
+    border: solid black 1px;
+    border-left: none ;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    border-collapse: collapse;
+    font-family: Outfit;
+    
+} */
+.k {
+    color: hsl(14, 45%, 36%);
+}
+
+hr {
+    margin-left: 40px;
+    width: 750px;
+
+}
+
